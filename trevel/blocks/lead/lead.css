@@ -1,0 +1,48 @@
+.lead {
+  margin: 0 auto;
+  max-width: 984px;
+}
+
+.lead__title {
+  margin: 0 auto 32px;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  max-width: 720px;
+}
+
+.lead__subtitle {
+  margin: 0 auto 64px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  max-width: 640px;
+  text-align: center;
+}
+
+.lead__image {
+  width: 100%;
+}
+
+.lead__figure {
+  margin: 0;
+}
+
+.lead__caption {
+  margin: 8px 0 0 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 2.4px;
+}
+
+
+
+
+
+
+
+
+

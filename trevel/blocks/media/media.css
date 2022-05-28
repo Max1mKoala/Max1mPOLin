@@ -1,0 +1,218 @@
+@media screen and (max-width: 1280px) {
+    .header {
+      max-width: 92%;
+    }
+    .photo-grid {
+        max-width: 91%;
+      }
+      .cover__link {
+        min-height: 58vw;
+      }
+      .footer {
+        max-width: 90.625%;
+        padding-top: 88px;
+      }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .header {
+      max-width: 91%;
+      padding-bottom: 48px;
+    }
+    .lead {
+        max-width: 91%;
+      }
+      .lead__subtitle {
+        margin-bottom: 56px;
+      }
+      .intro {
+        max-width: 91%;
+      }
+      .places {
+        max-width: 91%;
+      }
+      .place {
+        grid-template-columns: 440px 1fr;
+        grid-column-gap: 32px;
+      }
+      .cover__link {
+        min-height: 63vw;
+      }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .header {
+      max-width: 94%;
+    }
+    .lead {
+        max-width: 100%;
+      }
+      .lead__title {
+        font-size: 12vw;
+        line-height: 1.15;
+        max-width: 90%;
+      }
+      .lead__subtitle {
+        font-size: 5vw;
+        line-height: 1.2;
+        max-width: 90%;
+      }
+      .lead__caption {
+        margin-left: 24px;
+      }
+      .intro {
+        max-width: 94%;
+        padding: 88px 0;
+      }
+      .intro__title {
+        font-size: 6vw;
+        line-height: 1.1;
+        max-width: 90%;
+        padding-bottom: 16px;
+      }
+      .photo-grid {
+        max-width: 94%;
+      }
+      .places {
+        gap: 73px;
+        max-width: 93.75%;
+        padding-top: 88px;
+      }
+      .place {
+        grid-template-columns: 1fr;
+        grid-column-gap: 28px;
+      }
+      .place__website {
+        margin-left: 24px;
+      }
+      .place__title {
+        font-size: 42px;
+        line-height: 46px;
+        margin-left: 24px;
+      }
+      .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+        grid-column: 1;
+        margin-left: 24px;
+        margin-right: 24px;
+      }
+      .place__paragraph {
+        margin: 0 auto 25px auto;
+        max-width: 90%;
+      }
+      .place__paragraph:first-of-type {
+        margin-top: 32px;
+      }
+      .place__image {
+        grid-row: auto;
+      }
+      .cover {
+        grid-gap: 16px;
+      }
+      .cover__title {
+        max-width: 80%;
+        font-size: 32px;
+        line-height: 35px;
+      }
+      .cover__subtitle {
+        font-size: 4vw;
+        line-height: 1.1;
+        max-width: 80%;
+      }
+      .footer {
+        padding-top: 64px;
+        flex-direction: column;
+      }
+      .footer__links {
+        flex-direction: column;
+      }
+      .footer__link {
+        padding-bottom: 32px;
+        padding-right: 0;
+        font-size: 24px;
+        line-height: 24px;
+      }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .header {
+      max-width: 90%;
+    }
+    .header__logo{
+        width: 142px;
+        height: 42px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+      }
+      .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+        margin-bottom: 16px;
+      }
+      /* .lead__title {
+        font-size: 12vw;
+        line-height: 1.15;
+      } */
+      .lead__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 40px;
+      }
+      .lead__caption {
+        margin-left: 16px;
+      }
+      .intro {
+        padding: 64px 0;
+        max-width: 90%;
+        font-size: 32px;
+        line-height: 35px;
+      }
+      .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+      }
+      .photo-grid {
+        max-width: 90%;
+        gap: 12px;
+      }
+      .places {
+        gap: 50px;
+        padding-bottom: 64px;
+        padding-top: 64px;
+      }
+      .place__website {
+        margin: 0 16px 32px 16px;
+      }
+      .place__title {
+        font-size: 32px;
+        line-height: 38px;
+        margin: 0 16px 32px 16px;
+      }
+      .cover__title {
+        font-size: 11vw;
+        line-height: 1.1;
+      }
+      .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 81%;
+      }
+      .cover__link {
+        min-height: 200px;
+      }
+      .footer__copyright {
+        line-height: 14px;
+        padding-top: 16px;
+      }
+      .footer__link {
+        font-size: 20px;
+        line-height: 20px;
+      }
+}
+  

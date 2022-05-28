@@ -1,0 +1,41 @@
+.header {
+  max-width: 1184px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 0 56px;
+}
+
+.header__logo {
+  background-image: url(../../images/header-logo.svg);
+  width: 176px;
+  height: 52px;
+}
+
+.header__lang {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-self: flex-end;
+}
+
+.header__lang-link {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 18px;
+  font-weight: 400;
+  font-size:  24px;
+  line-height: 28px;
+  transition: .2s ease-in-out;
+}
+
+.header__lang-link:hover {
+  opacity: .5;
+}
+
+.header__lang-link_active {
+  text-decoration: underline;
+}
+
