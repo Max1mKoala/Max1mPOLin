@@ -1,0 +1,15 @@
+.section-title {
+  width: 60%;
+  margin-bottom: 20px;
+  font-size: 60px;
+  margin-top: 0;
+  line-height: 1.15;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-title_theme_dark {
+  color: #f2f2f2;
+}
